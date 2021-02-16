@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     @override
     Widget build(BuildContext context) {
       return MaterialApp(
-      home:Image(image: NetworkImage('https://saran.id/downloadpng/wallpaper/20201110/gambar-beruang-animasi-wallpaper-gambar-kartun-beruang-lucu-kartun-kocak-png-preview.jpg'),),
+      home:Image(image: NetworkImage('https://image.freepik.com/free-vector/cute-bear-logo_151280-14.jpg'),),
     ); 
   }
 }
