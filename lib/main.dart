@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     @override
     Widget build(BuildContext context) {
       return MaterialApp(
-      home : Text('This is Text Widget',),
+      home:Image(image: NetworkImage('https://saran.id/downloadpng/wallpaper/20201110/gambar-beruang-animasi-wallpaper-gambar-kartun-beruang-lucu-kartun-kocak-png-preview.jpg'),),
     ); 
   }
 }
