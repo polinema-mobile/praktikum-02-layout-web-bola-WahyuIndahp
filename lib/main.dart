@@ -10,11 +10,11 @@ class MyApp extends StatelessWidget {
     Widget build(BuildContext context) {
       return MaterialApp(
       home: Scaffold(
-      appBar: AppBar(title: Text("Contoh Column Widget")),
-        body: Column(
+        appBar: AppBar(title: Text("Contoh Row Widget")),
+        body: Row(
           children: [
             Container(
-              color: Colors.purpleAccent,
+              color: Colors.purpleAccent, 
               child: FlutterLogo(
                 size: 90.0,
               ),
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
               color: Colors.greenAccent,
               child: FlutterLogo(
                 size: 90.0,
-              ), 
+              ),
             ),
             Container(
               color: Colors.orangeAccent,
