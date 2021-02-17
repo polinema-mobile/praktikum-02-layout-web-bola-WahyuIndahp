@@ -16,14 +16,13 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.red,
         ),
         body: Container(
-          alignment: Alignment.center,
-          child: Container(
-            alignment: Alignment.topCenter,
-            child: Text(
+          alignment: Alignment.topCenter,
+          child: Text(
               'BERITA TERBARU       PERTANDINGAN HARI INI', 
               style: TextStyle(fontSize: 13.5, height: 2.5, color: Colors.black),
-          ))),
+          ),
+        ),
       ),
-    ); 
+    );
   }
 }
