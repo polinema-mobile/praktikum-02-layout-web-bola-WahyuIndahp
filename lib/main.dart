@@ -28,7 +28,6 @@ class MyApp extends StatelessWidget {
               child: Column(
                 children: [
                   TombolPilihan(),
-                  SizedBox(),
                   BeritaUtama(),
                   SizedBox(
                     height: 10,

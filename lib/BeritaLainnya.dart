@@ -18,16 +18,20 @@ class BeritaLainnya extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Expanded(
-                  child: Image.network(
-                  'https://statik.tempo.co/data/2020/10/02/id_970984/970984_720.jpg'
+                  flex: 2,
+                  child: Container(
+                    child: Image.network(
+                    'https://statik.tempo.co/data/2020/10/02/id_970984/970984_720.jpg'
+                    ),
                   ),
                 ),
                 Expanded(
+                  flex: 3,
                   child: Container(
                     margin: EdgeInsets.all(8),
                     child: Text(
                       "Pique Bilang Wasit Untungkan Madrid Koeman Tepok Jidad",
-                      style: TextStyle(fontSize: 15),
+                      style: TextStyle(fontSize: 12),
                     ),
                   ),
                 ),

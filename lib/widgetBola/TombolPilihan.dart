@@ -8,16 +8,17 @@ class TombolPilihan extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(2),
+      margin: EdgeInsets.all(1),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Expanded(
+              flex: 2,
               child: OutlineButton(
                 onPressed: () {}, 
                 child: Text(
                   "BERITA TERBARU",
-                  style: TextStyle(fontSize: 12),
+                  style: TextStyle(fontSize: 11.6),
               ),
             ),
           ),
@@ -25,14 +26,16 @@ class TombolPilihan extends StatelessWidget {
             width: 10,
           ),
           Expanded(
+            flex: 3,
               child: OutlineButton(
                 onPressed: () {}, 
                 child: Text(
                   "PERTANDINGAN HARI INI",
-                  style: TextStyle(fontSize: 10.5),  
+                  style: TextStyle(fontSize: 13),  
               ),
             ),
           ),
+          SizedBox(),
         ],
       ),
     );
