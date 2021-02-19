@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'BeritaLainnya.dart';
+
+import 'widgetBola/BeritaLainnya.dart';
 import 'widgetBola/BeritaUtama.dart';
 import 'widgetBola/TombolPilihan.dart';
 
